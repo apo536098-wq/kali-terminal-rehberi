@@ -284,7 +284,7 @@ sudo chown kali:kali dizin/ -R
 | `mtr`        | Ping + traceroute analizi             | `mtr example.com`                   |
 | `ss`         | Soket ve bağlantıları gösterir        | `ss -tulpn`                         |
 | `netstat`    | Ağ bağlantılarını gösterir            | `netstat -tulpn`                    |
-| `nmap`       | Ağ keşfi ve port taraması             | `nmap 192.168.1.1`                  |
+| `nmap`       | Ağ keşfi ve port taraması             | `nmap ***.***.*.*`                  |
 | `curl`       | HTTP/HTTPS istekleri                  | `curl -I https://example.com`       |
 | `wget`       | Dosya indirme                         | `wget https://example.com/file.zip` |
 | `whois`      | Domain kayıt bilgileri                | `whois example.com`                 |
