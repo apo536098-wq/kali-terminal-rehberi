@@ -661,7 +661,7 @@ Hem terminale çıktı verir hem de dosyaya yazar.
 
 | Araç             | Açıklama                                       | Temel Kullanım                    |
 | ---------------- | ---------------------------------------------- | --------------------------------- |
-| **Nmap**         | Ağ keşfi ve port taraması                      | `nmap 192.168.1.1`                |
+| **Nmap**         | Ağ keşfi ve port taraması                      | `nmap ***.***.*.*`                |
 | **Masscan**      | Çok hızlı port tarayıcı                        | Yetkili laboratuvarlarda kullanın |
 | **Recon-ng**     | Reconnaissance framework                       | `recon-ng`                        |
 | **theHarvester** | E-posta ve subdomain araştırması               | `theHarvester`                    |
@@ -674,7 +674,7 @@ Hem terminale çıktı verir hem de dosyaya yazar.
 Kendi/lab sisteminiz üzerinde:
 
 ```bash
-nmap -sV 192.168.1.10
+nmap -sV ***.***.*.**
 ```
 
 Servis ve versiyon bilgisi elde etmek için kullanılabilir.
